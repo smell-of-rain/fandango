@@ -50,7 +50,7 @@
 				
 				<p><a href="mailto:admin@asvarov.com" class="btn btn-default btn-lg">admin@asvarov.com</a></p>
 	
-<!--<a href="#" id="play-button">♫</a> <!-- Sometimes developers need fun too, right? -->
+<!--<a href="#" id="play-button">♫</a> //Sometimes developers need fun too, right? -->
 			</div> 
 		</div> 
 	
@@ -58,14 +58,14 @@
 </section>
 <script>
 	var i = 1, player = new Audio();
-     player.src = "/assets/sound/curious&loony.mp3";
+     player.src = "/assets/sound/evergarden.mp3";
 document.querySelector('#play-button').addEventListener('click', function(e) {
 	e.preventDefault();
   if (i === 1) {
-    player.src = "/assets/sound/curious&loony.mp3";
+    player.src = "/assets/sound/evergarden.mp3";
     i = 0;
   } else if (i === 0) {
-    player.src = "/assets/sound/evergarden.mp3";
+    player.src = "#";
     i = 1;
   }
   player.play();
