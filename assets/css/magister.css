@@ -136,7 +136,10 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	font-size:1.5em;
 	line-height:1.2em;
 }
-
+html,body,table
+{
+    height: 100%;
+}
 .title,
 .subtitle { 
 	font-family: 'Wire One', Helvetica, Arial, sans-serif;
@@ -159,7 +162,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	margin-bottom:75px;
 }
 
-@media (max-width: 767px) {
+@media{
 	.lead { 
 		font-size:1.3em;
 	}
