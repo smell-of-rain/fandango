@@ -122,6 +122,7 @@ body {
 /* Show one of sections */
 #head { 
 	display: block;
+background-color: rgba(0, 50, 50, 0.2);
 }
 
 
