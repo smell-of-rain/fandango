@@ -57,11 +57,11 @@
 </section>
 <script>
 	var i = 1, player = new Audio();
-     player.src = "/assets/sound/evergarden.mp3";
+     player.src = "./assets/sound/evergarden.mp3";
 document.querySelector('#play-button').addEventListener('click', function(e) {
 	e.preventDefault();
   if (i === 1) {
-    player.src = "/assets/sound/evergarden.mp3";
+    player.src = "./assets/sound/evergarden.mp3";
     i = 0;
   } else if (i === 0) {
     player.src = "#";
@@ -77,8 +77,8 @@ document.querySelector('#play-button').addEventListener('click', function(e) {
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="assets/js/modernizr.custom.72241.js"></script>
+<script src=".assets/js/modernizr.custom.72241.js"></script>
 
-<script src="assets/js/magister.js"></script>
+<script src="./assets/js/magister.js"></script>
 </body>
 </html>
