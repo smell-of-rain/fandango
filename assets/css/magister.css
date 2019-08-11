@@ -19,7 +19,7 @@ body {
 	color:rgba(255,255,255,.8); 
 	font-weight: normal;
 }
-
+@viewport { width: device-width;}
 
 /********************************************************/
 /*                    Navigation bar                    */
