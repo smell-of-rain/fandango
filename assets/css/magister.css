@@ -31,6 +31,9 @@ background-color: rgba(0, 0, 0, 0.3);
 @media (min-width: 768px) {
 	.mainmenu { position: fixed; }
 }
+@media (max-device-width: 767px){
+	.mainmenu { background-color: rgba(0, 0, 0, 0.3); }
+}
 
 .navbar-toggle {
 	position:relative;
